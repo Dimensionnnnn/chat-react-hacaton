@@ -1,0 +1,38 @@
+.list__form {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+}
+
+.user {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.25s;
+}
+
+.user:hover {
+    border-color: #646cff;
+}
+
+.selected {
+    background-color: #646cff;
+    color: #020207;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.selected:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.logout__button {
+    margin-left: 50px;
+}

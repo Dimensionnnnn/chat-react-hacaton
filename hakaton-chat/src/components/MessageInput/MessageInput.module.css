@@ -1,0 +1,26 @@
+.message__form {
+    display: flex;
+    flex-direction: row;
+}
+
+.message__input {
+    overflow: hidden;
+    resize: none;
+    padding: 0.6em 1.2em;
+    line-height: 1em;
+    font-size: 1em;
+    border: 2px solid transparent;
+    transition: border-color ease-in 0.3s;
+}
+
+.message__input:hover {
+    border-color: #646cff;
+}
+
+.message__input:focus {
+    outline: none;
+}
+
+.message__label {
+    padding-right: 20px;
+}

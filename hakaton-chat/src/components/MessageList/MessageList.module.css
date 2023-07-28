@@ -1,0 +1,21 @@
+.message__title {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.message__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.message__list {
+    padding-right: 20vw;
+}
+
+.message__elem {
+    font-weight: normal;
+    font-size: 18px;
+}
